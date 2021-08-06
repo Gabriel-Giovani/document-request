@@ -1,0 +1,36 @@
+.required-label{
+    margin-bottom: 16px;
+
+    .ant-form-item-required{
+        &::before{
+            content: '' !important;
+        }
+    }
+    .ant-form-item-label{
+        &::after{
+            content: ' *';
+            color: red;
+        }
+    }
+}
+
+.form-select {
+    width: 60% !important;
+    border: 1px solid #c0c0c0;
+
+    @media (max-width: 480px) {
+        width: 100% !important;
+    }
+}
+
+.form-input{
+    border: 1px solid #ABABAB;
+    height: 40px;
+}
+
+.resgitry-data-text{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 28px;
+    margin-bottom: 24px;
+}

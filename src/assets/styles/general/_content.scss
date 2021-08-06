@@ -1,0 +1,110 @@
+.contentLayout {
+    padding: 15px 50px;
+
+    .ant-pagination {
+        @media (max-width: 991px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .card-info-document{
+        .ant-card-body {
+            @media (max-width: 575px) {
+                .registry-data-col {
+                    margin-top: 24px;
+                }
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .card-layout {
+        border-radius: 4px;
+        box-shadow: 0px 1px 2px #2E2D2C66;
+        margin-bottom: 16px;
+
+        .ant-card-head-title{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        p{
+            margin-bottom: 8px;
+        }
+
+        .empty-document{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 110px;
+
+            img{
+                margin-bottom: 16px;
+            }
+
+            p{
+                color: #828180;
+            }
+        }
+    }
+
+    .lead-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 24px;
+
+        .lead-title-text {
+            font-size: 20px;
+            font-weight: 600;
+
+            @media (max-width: 575px){
+                text-align: center;
+                margin-bottom: 16px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .tag-status {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        color: #585756;
+
+        .anticon{
+            border-radius: 50%;
+        }
+    }
+
+    .solicitation-title-text {
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    @media (max-width: 625px) {
+        padding: 15px;
+    }
+}
+
+.title-modal{
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.number-solicitations {
+    font-size: 20px;
+    margin-bottom: 16px;
+}

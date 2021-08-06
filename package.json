@@ -6,9 +6,18 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router-dom": "^5.1.8",
+    "antd": "^4.16.10",
+    "axios": "^0.21.1",
+    "json-server": "^0.16.3",
+    "node-sass-chokidar": "^1.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-input-mask": "^2.0.4",
     "react-scripts": "4.0.3",
+    "typescript": "3.2.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -34,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/json-server": "^0.14.4",
+    "@types/react-input-mask": "^3.0.1"
   }
 }

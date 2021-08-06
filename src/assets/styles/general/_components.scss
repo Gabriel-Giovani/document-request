@@ -1,0 +1,27 @@
+.headerLayout {
+    background: transparent url('../../img/background-header.svg');
+
+    .ant-layout-header {
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        height: 56px;
+        padding: 0.5rem 1rem;
+    }
+}
+
+.footerLayout {
+    background: transparent;
+    flex: none;
+
+    .ant-layout-footer {
+        background: transparent linear-gradient(90deg, #5A5789 0%, #2D2C45 100%) 0% 0% no-repeat padding-box;;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,38 @@
+.ant-btn + .ant-btn {
+    margin-left: 10px;
+}
+
+.modal-button {
+    border-radius: 20px;
+}
+
+.cancel-button {
+    background-color: transparent;
+    border: 1px solid #3570B2;
+    color: #3570B2;
+
+    &:hover {
+        background-color: #3570B2;
+        border: 1px solid #3570B2;
+        color: #FFF;
+    }
+}
+
+.delete-button {
+    background-color: #E65562;
+    border: 1px solid #E65562;
+
+    &:hover {
+        background-color: transparent;
+        border: 1px solid #E65562;
+        color: #E65562;
+    }
+}
+
+.save-document-button{
+    background-color: #3570B2;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 16px;
+    margin-top: 24px;
+}
