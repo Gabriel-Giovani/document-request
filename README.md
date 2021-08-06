@@ -1,10 +1,17 @@
-Iniciar o projeto localmente:
+<h2 align="left">Iniciar o projeto localmente:</h2>
 
-1° Certifique-se de que em sua máquina estão instalados:
-    NPM (versão >= 10.0);
-    Yarn;
+<p><b>1.</b> Baixe o projeto ou execute um <i>git clone</i> em alguma pasta de sua máquina.</p>
+<p><b>2.</b>Certifique-se de que em sua máquina estão instalados: </p>
 
-2° Abra a pasta do projeto pelo terminal/cmd e siga os seguintes passos:
-    Instale as dependências com o comando yarn ou npm install;
-    Execute o comando yarn start para iniciar o front-end;
-    Abra um segundo terminal (na mesma pasta) e execute o comando yarn json-server --watch db.json --port 8000 para iniciar o serviço da Fake API.
+<ul>
+    <li>NPM (versão >= 10.0);</li>
+    <li>Yarn;</li>
+</ul>
+
+<p><b>3.</b>Abra a pasta do projeto pelo terminal/cmd e siga os seguintes passos: </p>
+    
+<ul>
+    <li>Instale as dependências com o comando <i>yarn</i> ou <i>npm install</i>;</li>
+    <li>Execute o comando <i>yarn start</i> para iniciar o front-end;</li>
+    <li>Abra um segundo terminal (na mesma pasta) e execute o comando <i>yarn json-server --watch db.json --port 8000</i> para iniciar o serviço da Fake API.</li>
+</ul>
